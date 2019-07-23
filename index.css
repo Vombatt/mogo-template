@@ -19,8 +19,9 @@ a {
         100%), 
         url("./images/eagle.png");
     background-size: cover;
+    background-position-y: 50%;
     width: 100%;
-    height: 58vw;
+    height: 50vw;
 }
 
 .header {
@@ -69,6 +70,48 @@ a {
     padding-bottom: 13px;
 }
 
+.banner-middle-intro {
+    text-align: center;
+    width: 39vw;
+}
+
+.intro-header {
+    font-size: 3.8vw;
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-weight: 400;
+}
+
+.intro-welcome {
+    font-size: 8vw;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro-separator {
+    width: 60px;
+    border: solid 2px white;
+    margin: 60px auto;
+}
+
+.intro-button-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 160px;
+    height: 40px;
+    border: solid 1px white;
+    color: white;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 @media (max-width: 500px) {
     .banner-background {
         height: 400px;
@@ -107,6 +150,4 @@ a {
         border: none;
         padding-bottom: 20px;
     }
-
-    
 }
